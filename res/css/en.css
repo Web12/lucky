@@ -1,0 +1,53 @@
+.winner-title {
+    text-transform:uppercase;
+    width: 300px;
+    position: absolute;
+    left: 175px;
+    top: 730px;
+    text-align: center;
+    color: #271b16;
+    line-height: 1;
+    font-size: 42px;
+    font-family: "PericlesRegular", sans-serif;
+}
+
+.order-title{
+    font-family: "PericlesRegular", sans-serif;
+    text-transform:uppercase;
+    width: 90px;
+    position: absolute;
+    left: 697px;
+    top: 34px;
+    color: #271b16;
+    line-height: 1;
+    font-size: 24px;
+    text-align:right;
+}
+
+
+.count-title {
+    width: 167px;
+    position: absolute;
+    left: 997px;
+    top: 35px;
+    text-align: right;
+    color: #271b16;
+    line-height: 1;
+    font-size: 24px;
+    font-family: "PericlesRegular", sans-serif;
+    text-transform:uppercase;
+}
+
+
+.summ-title {
+    width: 140px;
+    position: absolute;
+    left: 1249px;
+    top: 35px;
+    color: #271b16;
+    line-height: 1;
+    font-size: 24px;
+    font-family: "PericlesRegular", sans-serif;
+    text-transform:uppercase;
+    text-align: right;
+}

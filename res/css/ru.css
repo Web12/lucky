@@ -1,0 +1,52 @@
+.winner-title {
+    text-transform:uppercase;
+    width: 300px;
+    position: absolute;
+    left: 171px;
+    top: 730px;
+    text-align: center;
+    color: #271b16;
+    line-height: 1;
+    font-size: 45px;
+    font-family: "modernist-one", sans-serif;
+    letter-spacing: -1.5px;
+}
+
+
+.order-title{
+    font-family: "modernist-one", sans-serif;
+    width: 90px;
+    position: absolute;
+    left: 692px;
+    top: 31px;
+    color: #271b16;
+    line-height: 1;
+    font-size: 30px;
+    text-align:right;
+}
+
+
+.count-title {
+    width: 167px;
+    position: absolute;
+    left: 993px;
+    top: 31px;
+    text-align: right;
+    color: #271b16;
+    line-height: 1;
+    font-size: 30px;
+    font-family: "modernist-one", sans-serif;
+}
+
+
+.summ-title {
+    width: 140px;
+    position: absolute;
+    left: 1248px;
+    top: 21px;
+    color: #271b16;
+    line-height: .8;
+    font-size: 30px;
+    font-family: "modernist-one", sans-serif;
+    text-align: right;
+}
