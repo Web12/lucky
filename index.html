@@ -3,11 +3,23 @@
     <meta charset='utf-8'>
         <link href='res/css/style.css' rel='stylesheet'/>
         <link href='res/css/en.css' rel='stylesheet'/>
+        <style>
+        body, .bingo, .game  {
+			overflow: hidden;
+			pointer-events: none;
+		}
+		body {
+			background:#000;
+		}
+		</style>
         <script src="phonegap.js"></script>
         <script src='js/main.js'></script>
         <script src='js/infinite.js'></script>
         
         <script>
+		document.addEventListener("touchmove", function(e) {e.preventDefault();}, false);
+		document.addEventListener("scroll", function(e) {e.preventDefault();}, false);
+		
             window.cppObj = {
                 toJs: {
                     connect: function () {}
